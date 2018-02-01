@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.onsen.helloworld" version="0.0.1"
+	xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Ramya Recipes</name>
+	<description>
+		Ramya Recipes is cooking recipes app.
+	</description>
+	<author email="dev@onsen.io" href="http://onsen.io">
+		Anand Kumar Chittaluri
+	</author>
+	<access origin="*" />
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="KeepRunning" value="false" />
+	<preference name="SplashScreen" value="screen" />
+	<preference name="android-build-tool" value="gradle" />
+
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+
+	<splash platform="android" qualifier="port-ldpi"
+		src="res/screen/android/screen-ldpi-portrait.png" />
+	<splash platform="android" qualifier="port-mdpi"
+		src="res/screen/android/screen-mdpi-portrait.png" />
+	<splash platform="android" qualifier="port-hdpi"
+		src="res/screen/android/screen-hdpi-portrait.png" />
+	<splash platform="android" qualifier="port-xhdpi"
+		src="res/screen/android/screen-xhdpi-portrait.png" />
+
+	<splash platform="android" qualifier="land-ldpi"
+		src="res/screen/android/screen-ldpi-portrait.png" />
+	<splash platform="android" qualifier="land-mdpi"
+		src="res/screen/android/screen-mdpi-portrait.png" />
+	<splash platform="android" qualifier="land-hdpi"
+		src="res/screen/android/screen-hdpi-portrait.png" />
+	<splash platform="android" qualifier="land-xhdpi"
+		src="res/screen/android/screen-xhdpi-portrait.png" />
+
+	<splash src="res/screen/splash.png" />
+
+	<splash platform="windows" src="res/screen/windows/splash.jpg"
+		width="1152" height="1920" />
+
+	<platform name="ios">
+		<splash src="res/screen/ios/Default~iphone.png" width="320"
+			height="480" />
+		<splash src="res/screen/ios/Default@2x~iphone.png" width="640"
+			height="960" />
+
+		<splash src="res/screen/ios/Default-Portrait~ipad.png" width="768"
+			height="1024" />
+		<splash src="res/screen/ios/Default-Portrait@2x~ipad.png"
+			width="1536" height="2048" />
+
+		<splash src="res/screen/ios/Default-Landscape~ipad.png" width="1024"
+			height="768" />
+		<splash src="res/screen/ios/Default-Landscape@2x~ipad.png"
+			width="2048" height="1536" />
+
+		<splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640"
+			height="1136" />
+		<splash src="res/screen/ios/Default-667h.png" width="750"
+			height="1334" />
+		<splash src="res/screen/ios/Default-736h.png" width="1242"
+			height="2208" />
+		<splash src="res/screen/ios/Default-Landscape-736h.png" width="2208"
+			height="1242" />
+	</platform>
+</widget>
